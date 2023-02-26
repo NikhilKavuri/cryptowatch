@@ -33,7 +33,7 @@ function App() {
       <CustomApp>
         <Header />
         {/* your private and public routes goes here */}
-        <PrivateRoute exact path='/' component={Homepage} />
+        <PrivateRoute exact path='/home' component={Homepage} />
         <PrivateRoute path='/coins/:id' component={CoinPage} />
         <PublicRoute path='/login' component={LoginPage} />
         <PublicRoute path='/register' component={Register} />
